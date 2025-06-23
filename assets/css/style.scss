@@ -1,0 +1,56 @@
+//Global font//
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+//heading fonts//
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import '_mixin.scss';
+@import '_variable.scss';
+@import '_common.scss';
+@import '_home.scss';
+
+h1,h2,h3,h4,h5,h6,p,ul,ol,li,p,a,*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    @include Font(16px, 23px, 400);
+
+}
+h1,h2{
+    font-family: "Rajdhani", sans-serif;
+}
+h2{
+    @include Font(40px,48px,700);
+}
+h6{
+    @include Font(18px,24px,500);
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    padding: 15px 30px;
+    border-radius: 25px;
+    border: none;
+    &:hover{
+        i{
+            animation: arrow-move 3s ease infinite;
+        }
+    }
+    i{
+        margin-left: 8px;
+    }
+}
+
+@keyframes arrow-move {
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(10px);
+    }
+}

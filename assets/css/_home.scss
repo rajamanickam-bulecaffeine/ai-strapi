@@ -1,0 +1,84 @@
+.home-banner{
+    padding: 135px 0px 120px;
+    background-image: url(../images/home/cctv-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $white;
+    h6{
+        color: $leaf-green;
+        margin-bottom: 8px;
+    }
+    h1{
+        @include Font(56px,62px,700);
+        margin-bottom: 20px;
+    }
+    p{
+        margin-bottom: 50px;
+    }
+    a{
+        color: $white;
+    }
+    .home-btns{
+        display: flex;
+        align-items: center;
+        column-gap: 40px;
+        
+    }
+}
+
+.home-aboutus{
+    padding: 120px 0px 0px;
+    h6{
+        color: $leaf-green;
+    }
+    h2{
+        margin-bottom: 20px;
+    }
+    p{
+        margin-bottom: 10px;
+    }
+    .row{
+        position: relative;
+        .ab-right-img{
+            position: absolute;
+            right: 0;
+            bottom: 16%;
+
+        }
+        .col-lg-6{
+            .col-lg-6{
+                p{
+                    margin-bottom: 30px;
+                    padding-bottom: 0px;
+                }
+            }
+        }
+    }
+   
+    ul{
+        margin-bottom: 40px;
+        li{
+            font-size: 18px;
+            font-weight: 500;
+            padding: 0px 0px 10px;
+            i{
+                color: $leaf-green;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+.home-shop{
+    padding: 120px 0px;
+    h6{
+        color: $leaf-green;
+        margin-bottom: 8px;
+    }
+    h2{
+        color: $heading;
+    }
+    .row{
+        margin-bottom: 50px;
+    }
+}

@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+header {
+  padding: 0px 0px 20px;
+  border-bottom: 1px solid #545760;
+}
+header .tap-bar {
+  padding: 10px 0px 10px;
+  background-color: #E12454;
+  color: #fff;
+}
+header .tap-bar p, header .tap-bar a {
+  font-size: 14px;
+}
+header .tap-bar .flex-item {
+  display: flex;
+  justify-content: space-between;
+}
+header .tap-bar .flex-item div {
+  display: flex;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+header .tap-bar a {
+  color: #fff;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px 0px;
+}
+header nav ul {
+  display: flex;
+  -moz-column-gap: 35px;
+       column-gap: 35px;
+  align-items: center;
+}
+header nav ul li a {
+  color: #333;
+}
+header nav ul li a:hover {
+  color: #E12454;
+}
+
+.products {
+  display: flex;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+}
+
+.product-card {
+  min-height: 383px;
+  max-width: 297px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.product-card:hover {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+}
+.product-card:hover .product-image {
+  transform: scale(1.1);
+}
+.product-card .product-image {
+  background-color: #f0f1f3;
+  transition: transform 0.5s ease;
+  padding: 45px 0;
+  text-align: center;
+  overflow: hidden;
+}
+.product-card .product-info {
+  padding: 30px 20px 28px;
+  text-align: center;
+}
+.product-card .product-info h3 {
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.product-card .product-info h6 {
+  margin-bottom: 15px;
+}
+.product-card .product-info .btn {
+  padding: 8px 25px;
+}
+
+.home-banner {
+  padding: 135px 0px 120px;
+  background-image: url(../images/home/cctv-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.home-banner h6 {
+  color: #65b530;
+  margin-bottom: 8px;
+}
+.home-banner h1 {
+  font-size: 56px;
+  line-height: 62px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.home-banner p {
+  margin-bottom: 50px;
+}
+.home-banner a {
+  color: #fff;
+}
+.home-banner .home-btns {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+
+.home-aboutus {
+  padding: 120px 0px 0px;
+}
+.home-aboutus h6 {
+  color: #65b530;
+}
+.home-aboutus h2 {
+  margin-bottom: 20px;
+}
+.home-aboutus p {
+  margin-bottom: 10px;
+}
+.home-aboutus .row {
+  position: relative;
+}
+.home-aboutus .row .ab-right-img {
+  position: absolute;
+  right: 0;
+  bottom: 16%;
+}
+.home-aboutus .row .col-lg-6 .col-lg-6 p {
+  margin-bottom: 30px;
+  padding-bottom: 0px;
+}
+.home-aboutus ul {
+  margin-bottom: 40px;
+}
+.home-aboutus ul li {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0px 0px 10px;
+}
+.home-aboutus ul li i {
+  color: #65b530;
+  margin-right: 10px;
+}
+
+.home-shop {
+  padding: 120px 0px;
+}
+.home-shop h6 {
+  color: #65b530;
+  margin-bottom: 8px;
+}
+.home-shop h2 {
+  color: #1b1a1a;
+}
+.home-shop .row {
+  margin-bottom: 50px;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, p, a, * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 400;
+}
+
+h1, h2 {
+  font-family: "Rajdhani", sans-serif;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+h6 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  padding: 15px 30px;
+  border-radius: 25px;
+  border: none;
+}
+.btn:hover i {
+  animation: arrow-move 3s ease infinite;
+}
+.btn i {
+  margin-left: 8px;
+}
+
+@keyframes arrow-move {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+}/*# sourceMappingURL=style.css.map */
